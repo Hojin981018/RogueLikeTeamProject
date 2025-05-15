@@ -427,6 +427,7 @@
 "Assets/Scripts/test3.cs"
 "Assets/Scripts/test4.cs"
 "Assets/Scripts/test5.cs"
+"Assets/Scripts/test6.cs"
 -langversion:9.0
 /deterministic
 /optimize+
