@@ -136,7 +136,9 @@
         126,
         127,
         128,
-        129
+        129,
+        130,
+        131
       ],
       "DebugActionIndex": 0
     },
@@ -146,7 +148,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 100,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\admin\\Desktop\\kyw\\myg",
+      "PayloadDebugContentSnippet": "C:\\Users\\admin\\Desktop\\MHJ\\myg",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -162,7 +164,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 251,
-      "PayloadLength": 34676,
+      "PayloadLength": 34895,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "InputFlags": [],
@@ -178,7 +180,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 35014,
+      "PayloadOffset": 35233,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -436,14 +438,18 @@
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
-        "Assets/Scenes/Scripts/test1.cs",
-        "Assets/Scenes/Scripts/test2.cs",
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "Assets/Scripts/test1.cs",
+        "Assets/Scripts/test2.cs",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "InputFlags": [
+        0,
+        0,
         0,
         0,
         0,
@@ -705,7 +711,7 @@
         1,
         2,
         3,
-        125
+        127
       ],
       "ToUseDependencies": [
         1,
@@ -868,8 +874,10 @@
         121,
         122,
         123,
-        126,
-        127
+        124,
+        125,
+        128,
+        129
       ],
       "DebugActionIndex": 6
     },
@@ -3448,11 +3456,55 @@
       "DebugActionIndex": 123
     },
     {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D6A6BD37B09F3190.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Android.Gradle.dll_D6A6BD37B09F3190.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Gradle.dll\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D6A6BD37B09F3190.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 124
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_9B30003A95C29BAC.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Android.Types.dll_9B30003A95C29BAC.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Types.dll\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_9B30003A95C29BAC.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 125
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 35110,
-      "PayloadLength": 10215,
+      "PayloadOffset": 35329,
+      "PayloadLength": 10370,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "InputFlags": [],
@@ -3462,7 +3514,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm",
@@ -3587,10 +3639,14 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_53912DCF66168820.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_834E43F0B488FD3C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_864FF0D3EF50D57E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D6A6BD37B09F3190.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_9B30003A95C29BAC.mvfrm",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
       "InputFlags": [
+        0,
+        0,
         0,
         0,
         0,
@@ -3837,11 +3893,13 @@
         121,
         122,
         123,
-        124
+        124,
+        125,
+        126
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -3862,7 +3920,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -3883,12 +3941,12 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\admin\\Desktop\\kyw\\mygit\\RogueLikeTeamProject\\TeamProject\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\admin\\Desktop\\kyw\\mygit\\RogueLikeTeamProject\\TeamProject\\Library\\ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\admin\\Desktop\\MHJ\\mygit\\RogueLikeTeamProject\\TeamProject\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.3f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\admin\\Desktop\\MHJ\\mygit\\RogueLikeTeamProject\\TeamProject\\Library\\ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -3906,11 +3964,11 @@
         0
       ],
       "ToBuildDependencies": [
-        126
+        128
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -3921,9 +3979,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         6,
-        128
+        130
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 131
     }
   ],
   "FileSignatures": [
@@ -4073,7 +4131,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 129
+          "ScriptAssembliesAndTypeDB": 131
         }
 ,  "DefaultNodes": [
     0
@@ -4081,6 +4139,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/admin/Desktop/kyw/mygit/RogueLikeTeamProject/TeamProject/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/admin/Desktop/MHJ/mygit/RogueLikeTeamProject/TeamProject/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
