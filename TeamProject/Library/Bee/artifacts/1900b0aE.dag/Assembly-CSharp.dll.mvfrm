@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ICharacterDataProvider
 UnityEditor
 U2D
@@ -59,6 +60,8 @@ DataStreamReader
 Networking
 Transport
 DataStreamWriter
+=======
+>>>>>>> main
 AssetModificationProcessor
 
 Sysroot

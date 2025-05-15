@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "com.unity.2d.animation": {
       "version": "10.2.0",
       "depth": 1,
@@ -180,6 +181,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.multiplayer.center": {
       "version": "1.0.0",
       "depth": 0,
@@ -188,6 +191,7 @@
         "com.unity.modules.uielements": "1.0.0"
       }
     },
+<<<<<<< Updated upstream
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 3,
@@ -246,6 +250,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
