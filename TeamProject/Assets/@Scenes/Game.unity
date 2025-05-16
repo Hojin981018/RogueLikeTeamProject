@@ -162,11 +162,17 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 570054003}
+<<<<<<< Updated upstream
   - {fileID: 326021666}
   - {fileID: 990777126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326021665
+=======
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &570054002
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,23 +180,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 326021666}
   - component: {fileID: 326021668}
   - component: {fileID: 326021667}
   m_Layer: 0
   m_Name: Tilemap_Object
+=======
+  - component: {fileID: 570054003}
+  - component: {fileID: 570054005}
+  - component: {fileID: 570054004}
+  m_Layer: 0
+  m_Name: Tilemap_BG
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &326021666
+=======
+--- !u!4 &570054003
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 326021665}
+=======
+  m_GameObject: {fileID: 570054002}
+>>>>>>> Stashed changes
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -199,13 +221,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 283688831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!483693784 &326021667
+=======
+--- !u!483693784 &570054004
+>>>>>>> Stashed changes
 TilemapRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 326021665}
+=======
+  m_GameObject: {fileID: 570054002}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -251,6 +281,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+<<<<<<< Updated upstream
 --- !u!1839735485 &326021668
 Tilemap:
   m_ObjectHideFlags: 0
@@ -785,11 +816,16 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &570054003
 Transform:
+=======
+--- !u!1839735485 &570054005
+Tilemap:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570054002}
+<<<<<<< Updated upstream
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -858,6 +894,9 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570054002}
   m_Enabled: 1
+=======
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_Tiles:
   - first: {x: -18, y: -10, z: 0}
     second:
@@ -2132,6 +2171,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< Updated upstream
 --- !u!1 &990777125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,6 +2329,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2136550117
 GameObject:
   m_ObjectHideFlags: 0
